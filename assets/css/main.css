@@ -1,0 +1,249 @@
+body{
+    font-family:"Outfit, sans-serif" !important ;
+}
+.text-hover{
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+.text-hover:hover .nav-link{
+    color: orange !important;
+    transition: all 0.3s ease-in-out;
+}
+.active{
+    color: orange !important;
+}
+#offcanvasTop{
+    transition: all 0.8s ease-in-out !important;
+}
+#offcanvasBottom{
+    transition: all 0.3s ease-in-out !important;
+}
+.navbar{
+    /* border-bottom: 3px solid orange; */
+    box-shadow: 0px 0px 5px 3px;
+}
+.s1{
+    background-image: url(../img/slide1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.463);
+    background-blend-mode: darken;
+}
+.s2{
+    background-image: url(../img/slide2.jpg);
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.463);
+    background-blend-mode: darken;
+}
+.right-arrow,.left-arrow{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.453);
+    transition: all 0.3s ease-in-out;
+    border-radius: 18px;
+}
+.right-arrow:hover{
+    background-color: orange;
+}
+.left-arrow:hover{
+    background-color: orange;
+}
+.slider-btn{
+    position: absolute;
+    /* bottom: 0; */
+    transform: translateY(350px);
+
+}
+.btn-hover{
+    transition: all 0.3s ease-in-out;
+}
+.btn-hover:hover{
+    color: white !important;
+    background-color: orange !important;
+    border: 1px solid orange !important;
+}
+.btn-hover-2{
+    transition: all 0.1s ease-in-out;
+}
+.btn-hover-2:hover{
+    color: orange !important;
+    /* background-color: orange !important; */
+    border: 1px solid orange !important;
+}
+.btn-hover-3{
+    transition: all 0.1s ease-in-out;
+}
+.btn-hover-3:hover{
+    background-color: rgba(0, 0, 0, 0.734) !important;
+}
+.text-border{
+    border-bottom: 2px solid orange;
+}
+.text-color-hover{
+    transition: all 0.1s ease-in-out;
+}
+.text-color-hover:hover{
+    color: orange !important;
+}
+.img-btn{
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.379);
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: 10;
+    opacity: 0;
+}
+.card-hover:hover .img-btn{
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: orange !important; 
+    outline: 1px solid orange !; 
+}
+.mySwiper_brand .swiper-wrapper .swiper-slide{
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.1s ease-in-out;
+    overflow: visible !important;
+    /* height: 160px; */
+    align-content: center !important;
+}
+.mySwiper_brand .swiper-wrapper .swiper-slide img{
+    width: 130px !important;
+    height: 80px !important;
+    filter: grayscale(100%);
+}
+.mySwiper_brand .swiper-wrapper .swiper-slide:hover{
+    border: 1px solid white !important;
+    background-color: white !important;
+    /* box-shadow: inset  0px 0px 5px 12px rgba(128, 128, 128, 0.053); */
+}
+.mySwiper_brand .swiper-wrapper .swiper-slide:hover img{
+    filter: grayscale(0%);
+}
+.s4_bg{
+    background-image: url(../img/s4_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:25px;
+    background-attachment: fixed;
+}
+.remove{
+    border-radius: 15px !important;
+    padding: 13px !important;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+.remove:focus{
+    border: 1px solid orange !important;
+}
+.card-hover-2{
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px !important;
+    border: 1px solid rgba(128, 128, 128, 0.095) !important;
+}
+.card-hover-2 button{
+    transition: all 0.2s ease-in-out;
+}
+.card-hover-2 img{
+    transition: all 0.2s ease-in-out;
+}
+.card-hover-2:hover{
+    background-color: white !important;
+    border: 1px solid white !important;
+    box-shadow: 0 2px 5px 5px rgba(128, 128, 128, 0.079);
+}
+.card-hover-2:hover button{
+    background-color: orange !important;
+    color: white !important;
+}
+.card-hover-2:hover img{
+    transform: rotateY(180deg);
+}
+.card-hover-3{
+    border-radius: 17px !important;
+    transition: all 0.2s ease-in-out;
+    border: none !important;
+    overflow: hidden !important;
+}
+.card-hover-3 img{
+    transition: all 0.2s ease-in-out;
+}
+.card-hover-3:hover img{
+    transform: scale(1.1);
+}
+.mySwiper-custom-3 .swiper-wrapper .swiper-slide{
+    transition: all 0.2s ease-in-out;
+    border-radius: 17px !important;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.129) !important;
+}
+.mySwiper-custom-3 .swiper-wrapper .swiper-slide:hover{
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+.mySwiper-custom-3 .swiper-wrapper .swiper-slide:hover svg{
+    color: orange !important;
+}
+.mySwiper-custom-3 .swiper-wrapper .swiper-slide:hover .change{
+    color: orange !important;
+}
+svg,.change{
+    transition: all 0.2s ease-in-out;
+}
+.s9_bg1{
+    background-image: url(../img/car-review.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.477);
+    background-blend-mode: darken;
+    /* border-radius: 17px; */
+}
+.s9_bg2{
+    background-image: url(../img/car-review3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.477);
+    background-blend-mode: darken;
+    /* border-radius: 17px; */
+}
+.mySwiper-custom-4{
+    border-radius: 17px;
+}
+.s10-card-hover{
+    border-radius: 17px !important;
+}
+.s10-img{
+    border-radius: 17px;
+    overflow: hidden;
+}
+.s10-img img{
+    transition: all 0.3s ease-in-out;
+}
+.s10-card-hover:hover .s10-img img{
+    transform: scale(1.1);
+}
+.btn-hover-footer{
+    transition: all 0.3s ease-in-out;
+}
+.btn-hover-footer:hover{
+    background-color: white !important;
+    /* border: 1px solid orange !important; */
+    color: black !important;
+}
+::-webkit-scrollbar{
+    width: 7px !important;
+    border-radius: 10px !important;
+}
+::-webkit-scrollbar-track{
+    /* background-color: rgb(255, 166, 0) !important; */
+    border-radius: 10px !important;
+    background-color: rgba(128, 128, 128, 0.144) !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange !important;
+    border-radius: 10px !important;
+}
+
